@@ -1,0 +1,9 @@
+main: pl.laststation.youhavetrouble.dynamichelp.dynamichelp
+name: DynamicLangHelp
+version: 1.0.0
+description: Dynamic Locale Help command
+author: YouHaveTrouble
+commands:
+  help:
+    description: Main command for the plugin
+    usage: /<command> <arg>

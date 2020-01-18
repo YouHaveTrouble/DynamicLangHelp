@@ -1,0 +1,39 @@
+#Use this file to create your own help subcommands
+#If user does not specify an argument, the message will default to "la_ng.1"
+#Default minecraft formatting codes are working in all messages! (https://minecraft.gamepedia.com/Formatting_codes)
+#
+#MAKE SURE THAT EN_US SECTION ALWAYS HAS ALL THE MESSAGES OR THE COMMANDS WON'T WORK
+lang:
+  en_us:
+    too-many-arguments: "Too many arguments"
+    invalid-argument: "Invalid argument"
+    invalid-page: "There is no page with that index"
+    1: |
+      &b-------- DynamicLangHelp (en_us) --------
+      Default help message for en_us locale!
+      See DynamicLangHelp/config.yml to change this message
+
+      You can add as many lines as you want, but remember,
+      that default client only shows 15 lines of text while
+      chat is open!
+    #This message will appear after typing /help info
+    info: |
+      An example of custom /help info subcommand
+      You can make any /help subcommand you want
+
+  pl_pl:
+    too-many-arguments: "Zbyt dużo argumentów"
+    invalid-argument: "nieprawidłowy argument"
+    invalid-page: "Nie ma strony o takim indeksie"
+    1: |
+      -------- DynamicLangHelp (pl_pl) --------
+      Domyślna wiadomość pomocy dla lokalizacji pl_pl!
+      Sprawdź DynamicLangHelp/config.yml żeby zmienić tę wiadomość
+
+      Możesz dodać dowolną ilość linii, ale pamiętaj,
+      że domyślny klient pokazuje tylko 15 linii tekstu
+      przy otwartym czacie!
+    #Ta wiadomość wyświetli się po wpisaniu /help info
+    info: |
+      Przykład subkomendy /help info
+      Mozesz zrobić dowolną subkomendę /help
