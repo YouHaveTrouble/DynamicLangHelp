@@ -9,7 +9,7 @@ lang:
     invalid-argument: "Invalid argument"
     invalid-page: "There is no page with that index"
     1: |
-      &b-------- DynamicLangHelp (en_us) --------
+      §b-------- DynamicLangHelp (en_us) --------§r
       Default help message for en_us locale!
       See DynamicLangHelp/config.yml to change this message
 
@@ -26,7 +26,7 @@ lang:
     invalid-argument: "nieprawidłowy argument"
     invalid-page: "Nie ma strony o takim indeksie"
     1: |
-      -------- DynamicLangHelp (pl_pl) --------
+      §b-------- DynamicLangHelp (pl_pl) --------§r
       Domyślna wiadomość pomocy dla lokalizacji pl_pl!
       Sprawdź DynamicLangHelp/config.yml żeby zmienić tę wiadomość
 
