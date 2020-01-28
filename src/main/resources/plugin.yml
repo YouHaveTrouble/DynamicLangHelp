@@ -1,4 +1,4 @@
-main: pl.laststation.youhavetrouble.dynamichelp.dynamichelp
+main: pl.laststation.youhavetrouble.Dynamichelp.Dynamichelp
 name: DynamicLangHelp
 version: 1.0.0
 description: Dynamic Locale Help command

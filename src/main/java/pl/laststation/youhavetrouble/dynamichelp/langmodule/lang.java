@@ -1,7 +1,7 @@
 package pl.laststation.youhavetrouble.dynamichelp.langmodule;
 
 import org.bukkit.entity.Player;
-import pl.laststation.youhavetrouble.dynamichelp.dynamichelp;
+import pl.laststation.youhavetrouble.dynamichelp.Dynamichelp;
 
 public class lang {
 
@@ -14,8 +14,8 @@ public class lang {
     public static String getTranslatedString(Player p, String msg) {
 
         String plocale = p.getLocale();
-        String tmessage = dynamichelp.getPlugin().getConfig().getString("lang." + plocale + "." + msg);
-        String dmessage = dynamichelp.getPlugin().getConfig().getString("lang.en_us." + msg);
+        String tmessage = Dynamichelp.getPlugin().getConfig().getString("lang." + plocale + "." + msg);
+        String dmessage = Dynamichelp.getPlugin().getConfig().getString("lang.en_us." + msg);
         if (tmessage == null) {
             if (dmessage == null) {
                 return " ";
